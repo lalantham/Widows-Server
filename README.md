@@ -1,4 +1,4 @@
-![Repo Image](https://github.com/lalantham/install-wordpress/blob/master/img.jpg)
+![Repo Image](https://github.com/lalantham/Widows-Server/blob/master/winserver.jpg)
 # Instal and Configure Windows Server
 
 >Complete Guild for Instal and Configure Windows Server
