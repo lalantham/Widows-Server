@@ -15,13 +15,18 @@
 
 	2.1 - Install Active Directory Domain Services { Add Role and Feature }
   
-  2.1 - Check restart if needed { optional }
+ 	2.2 - Check restart if needed { optional }
   
-  2.1 - Promote the Server as Domain Contoler
+  	2.3 - Promote the Server as Domain Contoler
           - Add New Forest --> Put Root Domain Name
           - Set Proper Domain and Forest Functional Levels
           - Set DSRM Password { Directory Service Restore Mode }
           - Proceed Installation Process
-  2.2 - Restart Server
-  2.3 - Create Reverse Lookup Zone --> With Defaults
-  2.4 - Foward Lookup Zone --> Server Name --> Properties --> Update Associated Pointer
+	  
+  	2.4 - Restart Server
+  
+  	2.5 - Create Reverse Lookup Zone --> With Defaults
+  
+  	2.6 - Foward Lookup Zone --> Server Name --> Properties --> Update Associated Pointer
+  
+  
