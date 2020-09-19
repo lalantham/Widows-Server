@@ -29,4 +29,24 @@
   
   	2.6 - Foward Lookup Zone --> Server Name --> Properties --> Update Associated Pointer
   
+  ## 03 - Install Secondary DNS Server
+  	
+	3.1 - Configure Static IP { It Self as a Primary DNS Server & DC Server as Secondary DNS Server }
   
+ 	3.2 - Change DNS Suffix to Local Domain & Tick " Use this connection DNS suffix in DNS Regstration "
+  
+  	3.3 - Add Secondary Server to the Domain
+	  
+  	3.4 - Restart Server
+  
+  	3.5 - In Primary DC Server -->  Add Secondary DNS Server as Newly Created DNS Server
+  
+  	3.6 - Add DNS Role
+	
+	3.7 - In Primary DC Server --> Foward Lookup Zone --> Local Domain --> Zone Transfer --> Add Secondary server 
+  
+ 	3.8 - In Primary DC Server --> Reverse Lookup Zone --> Local Domain --> Zone Transfer --> Add Secondary server 
+  
+  	3.9 - Add New Foward Lookup Zone to Secondary DNS Server --> Use Secondary Server Option --> Add Local Domain Name --> Add Primary DC Server Ip
+	  
+  	3.10 - Add New Reverse Lookup Zone to Secondary DNS Server --> Use Secondary Server Option --> Add Primary DC Server Ip
